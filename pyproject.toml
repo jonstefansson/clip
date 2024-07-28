@@ -9,8 +9,13 @@ packages = [{include = "clip", from = "src"}]
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
 pyside6 = "^6.7.2"
+click = "^8.1.7"
+icecream = "^2.1.3"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+clip = 'clip.command:cli'
