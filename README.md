@@ -12,6 +12,8 @@ I built this app with [Python](https://www.python.org/), [Poetry](https://python
 
 I have no intention to publish this to PyPI. It's a personal tool. But Poetry should make it easy to publish this if I change my mind.
 
+![Application Screenshot](./images/app.png)
+
 ## Usage
 
 1. Create a data file with key/value pairs separated by space and pipe characters, similar to a Markdown table.
@@ -26,7 +28,7 @@ poetry run clip run ~/path/to/data/file
 ### Example data file
 
 ```plaintext
-Agency Outlook Forecase  | 2024-07-06
+Agency Outlook Forecast  | 2024-07-06
 License Agreement        | 2024-07-06
 Terms                    | 2024-07-06
 Data                     | 2024-07-07
