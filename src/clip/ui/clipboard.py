@@ -15,7 +15,7 @@ class ClipboardApp(QWidget):
         scroll_widget = QWidget()
         scroll_layout = QGridLayout()
         font = QFont()
-        font.setFamily('Andale Mono')
+        font.setFamilies(['Monaco', 'Andale Mono'])
         font.setPointSize(18)
 
         # Create buttons for each pair
